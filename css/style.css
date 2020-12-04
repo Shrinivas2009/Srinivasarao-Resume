@@ -1,0 +1,1026 @@
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('../fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('../fonts/bebasneue_book-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'bebas_neuebold';
+	background: #1e1d20;
+}
+.padding-remove{
+	padding: 0 !important;
+}
+.sreenivash-resume-details{
+	overflow: hidden;
+}
+.sreenivash-resume-header{
+	background-image: url('../images/header-doll.png');
+	overflow: hidden;
+	height: 462px;
+   	/*background-attachment: fixed;*/
+    background-position: center;
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+	background-size: 100% 100%;
+    position: relative;
+}
+.sreenivash-resume-main{
+	overflow: hidden;
+}
+.sreenivash-resume-left{
+	width: 35.5%;
+	float: left;
+	height: 500px;
+}
+.sreenivash-resume-right{
+	width: 39.5%;
+	float: left;
+	height: 500px;
+}
+.sreenivash-resume-center{
+	width: 25%;
+    /*float: left;*/
+    /*padding-top: 155px;*/
+    padding-top: 125px;
+    position: absolute;
+    left: 35%;
+}
+.sreenivash-resume-hexagon {
+	    /*width: 100%;
+    height: 170px;
+    background: #fff;
+    position: relative;*/
+    position: absolute;
+    top: 135px;
+        width: 260px;
+    height: 130px;
+    background: #fff;
+    /*position: relative;*/
+    margin: 0 0 0 15px;
+}
+.sreenivash-resume-hexagon:before {
+	    /*content: "";
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 171px solid transparent;
+    border-right: 170px solid transparent;
+    border-bottom: 100px solid #fff;*/
+        content: "";
+    position: absolute;
+    top: -75px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    border-bottom: 75px solid #fff;
+}
+.sreenivash-resume-hexagon:after {
+	    content: "";
+    position: absolute;
+    bottom: -75px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    border-top: 75px solid #fff;
+	/*content: "";
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 170px solid transparent;
+    border-right: 171px solid transparent;
+    border-top: 100px solid #fff;*/
+}
+.sreenivash-resume-header-images{
+	width: 290px;
+    height: 500px;
+    /*border: 1px solid #fff;*/
+    overflow: hidden;
+    margin: 0 auto
+}
+.sreenivash-resume-header-images-photo{
+	overflow: hidden;
+	/*background-image: url('../images/bg-line.png');*/
+     background-image: url("../images/bg-line.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sreenivash-resume-ssr-photo{
+    overflow: hidden;
+    width: 260px;
+    height: 280px;
+    /* margin: 0 auto; */
+    position: absolute;
+    top: 63px;
+    margin: 0 15px;
+}
+.sreenivash-resume-ssr-photo img{
+    width: 100%;
+    height: 100%;
+}
+.sreenivash-resume-header-sub{
+    position: fixed;
+    width: 100%;
+    /* height: 210px; */
+    top: 74px;
+    left: 517px;
+    background-image: url("../images/abc-image.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    /*background-size: cover;   */
+     background-size: 265px 265px; 
+}
+.sreenivash-resume-ssr{
+        position: absolute;
+    width: 250px;
+    height: 250px;
+    z-index: 999;
+    top: -58px;
+    margin: 0 0 0 6px;
+}
+.sreenivash-resume-ssr-name{
+    width: 100%;
+    /*height: 200px;*/
+    /*border: 2px solid #fff;*/
+    position: relative;
+    top: 220px;
+}
+.sreenivash-resume-ssr-content{
+    overflow: hidden;
+    padding: 13px 0 30px;
+}
+.sreenivash-resume-ssr-content h1{
+    text-align: center;
+    color: #fff;
+    /*font-family: serif;*/
+    font-size: 68px;
+    margin: 0;
+    font-family: 'bebas_neuebold';
+    font-weight: 600;
+}
+.sreenivash-resume-ssr-content p{
+    text-align: center;
+    color: #fff;
+    font-family: 'robotoitalic';
+    font-size: 18px;
+    /*text-transform: uppercase;*/
+    margin: 0;
+    /*font-weight: 600;*/
+}
+.sreenivash-resume-ssr-career{
+    color: #fff;
+    padding: 25px 25px 0;
+}
+.sreenivash-resume-ssr-career p{
+    text-align: center;
+    padding: 0 0 50px 0;
+    font-family: 'robotoregular';
+    border-bottom: 2px dotted #8ba3cb;
+}
+.sreenivash-resume-ssr-full-details{
+    overflow: hidden;
+    text-align: center;
+    padding: 34px 0 93px;
+}
+.sreenivash-resume-ssr-full-details h4{
+    margin: 0;
+    color: #fff;
+    /*font-family: fantasy;*/
+    font-size: 24px;
+    font-family: 'bebas_neuebold';
+}
+.sreenivash-resume-ssr-full-details p{
+    margin: 0;
+    color: #8ba3cb;    
+    /*font-family: fantasy;*/
+    font-size: 24px;
+    font-family: 'bebas_neuebold';
+}
+.sreenivash-resume-ssr-center hr{
+    width: 80% !important;
+    margin: 30 auto 0 !important;
+    border-top: 2px dotted #8ba3cb !important;
+}
+.sreenivash-resume-ssr-social-icon{
+    overflow: hidden;
+    width: 80%;
+    padding: 25px 0 142px;
+    /*border-bottom: 2px dotted #8ba3cb;*/
+    margin: 0 auto;
+}
+.sreenivash-resume-ssr-icon-one{
+    width: 100px;
+    float: left;
+    position: relative;
+}
+.sreenivash-resume-ssr-icon-one a{
+    text-decoration: none;
+    color: #fff;
+}
+.sreenivash-resume-ssr-icon-one .fa-facebook{
+    position: absolute;
+    top: 30px;
+    /*left: 38px;*/
+    font-size: 40px;
+    margin: 0 36px;
+
+}
+.sreenivash-resume-ssr-icon-one img{
+    width: 100%;
+    height: 100%;
+}
+.sreenivash-resume-ssr-icon-two{
+    width: 100px;
+    float: right;
+    position: relative;
+}
+.sreenivash-resume-ssr-icon-two a{
+    text-decoration: none;
+    color: #fff;
+}
+.sreenivash-resume-ssr-icon-two .fa-envelope-o{
+    position: absolute;
+    top: 30px;
+    /*left: 31px;*/
+    margin: 0 30px;
+    font-size: 40px;   
+}
+.sreenivash-resume-ssr-icon-two img{
+    width: 100%;
+    height: 100%;
+}
+/*************This is section***************/
+.sreenivash-resume-section{
+    /*overflow: hidden;*/
+}
+.sreenivash-resume-section-left{
+    /*padding: 20px;*/
+    /*border: 2px solid #fff;*/
+    width: 35%;
+    float: left;
+    overflow: hidden;
+    /*height: 400px;*/
+}
+.sreenivash-resume-section-left-content{
+    overflow: hidden;
+}
+.sreenivash-resume-section-left-content h1{
+    color: #fff;
+    /*font-family: cursive;*/
+    text-align: center;
+    width: 80%;
+    padding: 15px 0;
+    border-bottom: 2px dotted #666771;
+    float: right;
+    font-family: 'bebas_neuebook';
+    border-top: 2px dotted #666771;
+}
+.sreenivash-resume-section-left-content-details{
+    overflow: hidden;
+    width: 80%;
+    float: right;
+    padding: 48px 0;
+    text-align: right;
+}
+.sreenivash-resume-section-left-content-details h2{
+    margin: 0 !important;
+    color: #5c709a;
+    font-size: 36px;
+}
+.sreenivash-resume-section-left-content-details h4{
+    margin: 0 !important;
+    color: #fff;
+    font-size: 24px;
+}
+.sreenivash-resume-section-left-content-details p{
+    margin-bottom: 0 !important;
+    color: #74716f;
+    font-size: 18px;
+    font-family: 'robotobold';
+}
+.sreenivash-resume-project{
+    overflow: hidden;
+    width: 250px;
+    float: right;
+    padding: 5px 0;
+}
+.sreenivash-resume-project p{
+    font-size: 14px;
+    font-family: 'robotoregular';
+    margin-bottom: 0;
+    color: #fff;
+}
+.line-clamp{
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; 
+}
+.sreenivash-resume-project-more-details{
+    width: 100%;
+    clear: both;
+}
+.sreenivash-resume-project-more-details button{
+    background: #5c709a;
+    border: 0;
+    color: #fff;
+    padding: 1px 25px;
+    border-radius: 3px;
+    font-family: 'robotobold';
+}
+.sreenivash-resume-section-center{
+    width: 25%;
+    float: left;
+    /*padding: 20px;*/
+    /*border: 2px solid #fff;*/
+}
+.sreenivash-resume-ssr-center{
+    width: 290px;
+    background: #2d3243;
+    /*height: 400px;*/
+        margin: 0 auto;
+        padding-bottom: 60px;
+}
+.sreenivash-resume-section-right{
+     width: 40%;
+    float: left;
+    overflow: hidden;
+    /*height: 400px;*/
+    /*padding: 20px;*/
+    /*border: 2px solid #fff;*/
+}
+.sreenivash-resume-section-right-content{
+    overflow: hidden;
+}
+.sreenivash-resume-section-right-content h1{
+    color: #fff;
+    /*font-family: cursive;*/
+    text-align: center;
+    width: 80%;
+    padding: 15px 0;
+    border-bottom: 2px dotted #666771;
+    float: left;
+    border-top: 2px dotted #666771;
+    font-family: 'bebas_neuebook';
+}
+.sreenivash-resume-section-right-content-details{
+    overflow: hidden;
+    width: 80%;
+    padding: 48px 0;
+}
+.sreenivash-resume-section-right-content-details:nth-of-type(1){
+    padding-bottom: 115px !important;
+}
+.sreenivash-resume-section-right-content-details:nth-of-type(2){
+    padding-bottom: 137px;
+}
+.sreenivash-resume-section-right-content-details:nth-of-type(3){
+    padding-bottom: 138px;
+}
+.sreenivash-resume-section-right-content-details h2{
+    margin: 0 !important;
+    color: #5c709a;
+    font-size: 36px;
+}
+.sreenivash-resume-section-right-content-details h4{
+    margin: 0 !important;
+    color: #fff;
+    font-size: 24px;
+}
+.sreenivash-resume-section-right-content-details p{
+    margin-bottom: 0 !important;
+    color: #74716f;
+    font-size: 18px;
+    font-family: 'robotobold';
+}
+.sreenivash-resume-section-right-skills{
+    overflow: hidden;
+    width: 100%;
+    padding: 30px 0;
+}
+.sreenivash-resume-section-right-skills-content{
+    overflow: hidden;
+    width: 80%;
+}
+.sreenivash-resume-section-right-skills-rating{
+    width: 60%;
+    float: left;
+}
+.sreenivash-resume-section-right-skills-rating-title{
+    width: 40%;
+    float: left;    
+}
+.sreenivash-resume-section-right-skills-rating-title p{
+    margin-bottom: 0;
+    color: #fff;
+    font-family: 'robotoregular';
+    font-size: 24px;
+}
+.sreenivash-resume-ssr-width-30-px{
+    width: 30px;
+    float: left;
+    margin: 0 2px;
+}
+.sreenivash-resume-ssr-width-30-px img{
+    width: 100%;
+    height: 100%;
+}
+.sreenivash-resume-section-left-software{
+    overflow: hidden;
+    width: 100%;
+    padding: 30px 0;
+}
+.sreenivash-resume-section-left-software-content{
+    overflow: hidden;
+    width: 80%;
+    float: right;
+}
+.sreenivash-resume-section-left-software-rating{
+    width: 60%;
+    float: left;
+}
+.sreenivash-resume-section-left-software-rating-title{
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding: 0 15px 0 0;    
+}
+.sreenivash-resume-section-left-software-rating-title p{
+    margin-bottom: 0;
+    color: #fff;
+    font-family: 'robotoregular';
+    font-size: 24px;
+}
+.sreenivash-resume-section-left-software-rating .sreenivash-resume-ssr-width-30-px{
+    width: 30px;
+    float: right;
+    margin: 0 2px;
+}
+/*************This is end of section***************/
+
+@media (min-width: 990px) and (max-width: 1200px){
+    .sreenivash-resume-header{
+        /*position: relative;*/
+        /*top: -49px;*/
+        background-size: 100% 88%;
+        top: -26px;
+    }
+    .sreenivash-resume-header-images {
+        width: 210px;
+    }
+    .sreenivash-resume-ssr-photo {
+        width: 185px;
+        height: 200px;
+        top: 70px;
+        margin: 0 13px;
+    }
+    .sreenivash-resume-ssr-content {
+        padding: 50px 0 30px;
+    }
+    .sreenivash-resume-ssr-name {
+        top: 168px;
+    }
+    .sreenivash-resume-section{
+        position: relative;
+        top: -26px;
+    }
+    .sreenivash-resume-ssr-content h1{
+        font-size: 44px;
+    }
+    .sreenivash-resume-ssr-content p{
+        font-size: 12px;
+    }
+    .sreenivash-resume-ssr-center {
+        width: 210px;
+    }
+    .sreenivash-resume-ssr-full-details p {
+        font-size: 20px;
+    }
+    .sreenivash-resume-section-right-content-details:nth-of-type(1) {
+        padding-bottom: 135px !important;
+    }
+    .sreenivash-resume-ssr-icon-one {
+        width: 60px;
+    }
+    .sreenivash-resume-ssr-icon-two {
+        width: 60px;
+    }
+    .sreenivash-resume-ssr-icon-one .fa-facebook {
+        top: 18px;
+        font-size: 24px;
+        margin: 0 22px;
+    }
+    .sreenivash-resume-ssr-icon-two .fa-envelope-o {
+        top: 18px;
+        font-size: 24px;
+        margin: 0 18px;
+    }
+    .sreenivash-resume-section-left-software-rating-title p {
+        font-size: 17px;
+    }
+    .sreenivash-resume-ssr-width-30-px {
+        width: 20px;
+    }
+    .sreenivash-resume-section-left-software-rating .sreenivash-resume-ssr-width-30-px {
+        width: 20px;
+    }
+    .sreenivash-resume-section-right-content-details:nth-of-type(2) {
+        padding-bottom: 158px;
+    }
+    .sreenivash-resume-section-right-content-details:nth-of-type(3) {
+        padding-bottom: 159px;
+    }
+    .sreenivash-resume-ssr-full-details {
+        padding: 34px 0 105px;
+    }
+    .sreenivash-resume-ssr-social-icon {
+        padding: 25px 0 42px;
+    }
+    .sreenivash-resume-section-right-skills-rating-title p {
+        font-size: 17px;
+    }
+}
+@media (min-width: 768px) and (max-width: 989px){
+    .sreenivash-resume-header-images {
+        width: 160px;
+    }
+    .sreenivash-resume-ssr-photo {
+        width: 135px;
+        height: 150px;
+        top: 90px;
+        margin: 0 12px;
+    }
+    .sreenivash-resume-ssr-content h1 {
+        font-size: 38px;
+    }
+    .sreenivash-resume-ssr-content p {
+        font-size: 11px;
+    }
+    .sreenivash-resume-ssr-center {
+        width: 160px;
+    }
+    .sreenivash-resume-ssr-career {
+        padding: 25px 10px 0;
+    }
+    .sreenivash-resume-ssr-career p {
+        font-size: 12px;
+    }
+    .sreenivash-resume-section-right-content-details:nth-of-type(1) {
+        padding-bottom: 159px !important;
+    }
+    .sreenivash-resume-section-right-content-details:nth-of-type(2) {
+        padding-bottom: 189px;
+    }
+    .sreenivash-resume-section-right-content-details:nth-of-type(3) {
+        padding-bottom: 182px;
+    }
+    .sreenivash-resume-ssr-icon-one {
+        width: 50px;
+    }
+    .sreenivash-resume-ssr-icon-two {
+        width: 50px;
+    }
+    .sreenivash-resume-ssr-icon-one .fa-facebook {
+        top: 16px;
+        font-size: 20px;
+        margin: 0 18px;
+    }
+    .sreenivash-resume-ssr-icon-two .fa-envelope-o {
+        top: 15px;
+        margin: 0 15px;
+        font-size: 20px;
+    }
+    .sreenivash-resume-section-left-software-rating .sreenivash-resume-ssr-width-30-px {
+        width: 15px;
+    }
+    .sreenivash-resume-section-left-software-rating-title p {
+        font-size: 14px;
+    }
+    .sreenivash-resume-ssr-width-30-px {
+        width: 15px;
+    }
+    .sreenivash-resume-section-right-skills-rating-title p {
+        font-size: 14px;
+    }
+    .sreenivash-resume-section-right-skills-rating-title p {
+            /*font-size: 16px;*/
+            /*text-overflow: ellipsis;*/
+            /*overflow: hidden;*/
+    }
+    .sreenivash-resume-ssr-full-details h4 {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 18px;
+    }
+    .sreenivash-resume-ssr-full-details p {
+        font-size: 16px;
+    }
+    .sreenivash-resume-ssr-full-details {
+        padding-bottom: 141px;
+    }
+    .sreenivash-resume-ssr-social-icon {
+        padding-bottom: 115px;
+    }
+}
+@media (min-width: 480px) and (max-width: 767px){
+    .sreenivash-resume-header {
+        height: 185px;
+        background-size: 100% 75%;
+        margin-top: -20px;
+    }
+    .sreenivash-resume-left {
+        height: 180px;
+    }
+    .sreenivash-resume-right {
+        height: 180px;
+    }
+    .sreenivash-resume-center {
+        padding-top: 65px;
+    }
+    .sreenivash-resume-header-images {
+        width: 110px;
+        height: 130px;
+    }
+    .sreenivash-resume-ssr-photo {
+        width: 95px;
+        height: 105px;
+        top: 42px;
+        margin: 0 7px;
+    }
+    .sreenivash-resume-ssr-name {
+        top: 40px;
+    }
+    .sreenivash-resume-ssr-content {
+        padding: 48px 0 30px;
+    }
+    .sreenivash-resume-ssr-content h1 {
+        font-size: 18px;
+    }
+    .sreenivash-resume-ssr-content p {
+        font-size: 7px;
+    }
+    .sreenivash-resume-ssr-center {
+        width: 110px;
+        padding-bottom: 40px;
+    }
+    .sreenivash-resume-ssr-career {
+        padding: 14px 8px 0;
+    }
+    .sreenivash-resume-ssr-career p {
+        font-size: 10px;
+    }
+    .sreenivash-resume-section-left-content h1 {
+        margin: 0 5px 0 0;
+        font-size: 24px;
+    }
+    .sreenivash-resume-section-right-content h1 {
+        margin: 0 0 0 5px;
+        font-size: 24px;
+    }
+    .sreenivash-resume-section-left-content-details {
+        padding: 13px 0;
+        margin: 0 5px 0 0;
+    }
+    .sreenivash-resume-section-right-content-details {
+        padding: 13px 0;
+        margin: 0 0 0 5px;
+    }
+    .sreenivash-resume-section-left-content-details h2 {
+        font-size: 20px;
+    }
+    .sreenivash-resume-section-right-content-details h2 {
+        font-size: 20px;
+    }
+    .sreenivash-resume-section-left-content-details h4 {
+        font-size: 16px;
+    }
+    .sreenivash-resume-section-right-content-details h4 {
+        font-size: 16px;
+    }
+    .sreenivash-resume-section-left-content-details p {
+        font-size: 10px;
+    }
+    .sreenivash-resume-section-right-content-details p {
+        font-size: 10px;
+    }
+    .sreenivash-resume-project {
+        width: 110px;
+    }
+    .sreenivash-resume-project p {
+        font-size: 10px;
+    }
+    .sreenivash-resume-project-more-details button {
+        padding: 1px 5px;
+        font-size: 10px;
+    }
+    .sreenivash-resume-section-right-content-details:nth-of-type(1) {
+        padding-bottom: 68px !important;
+    }
+    .sreenivash-resume-section-right-content-details:nth-of-type(2) {
+        padding-bottom: 82px;
+    }
+    .sreenivash-resume-section-right-content-details:nth-of-type(3) {
+        padding-bottom: 98px;
+    }
+    .sreenivash-resume-ssr-full-details h4 {
+        font-size: 14px;
+    }
+    .sreenivash-resume-ssr-full-details p {
+        font-size: 11px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .sreenivash-resume-ssr-icon-one {
+        width: 65%;
+        margin: 0 auto;
+        float: none;
+    }
+    .sreenivash-resume-ssr-icon-two {
+        width: 65%;
+        margin: 0 auto;
+        float: none;
+        padding-top: 10px;
+    }
+    .sreenivash-resume-ssr-icon-one .fa-facebook {
+        top: 14px;
+        font-size: 26px;
+        margin: 0 19px;
+    }
+    .sreenivash-resume-ssr-icon-two .fa-envelope-o {
+        top: 26px;
+        margin: 0 18px;
+        font-size: 22px;
+    }
+    .sreenivash-resume-ssr-social-icon {
+        padding: 0;
+    }
+    .sreenivash-resume-section-left-software {
+        padding: 13px 4px;
+    }
+    .sreenivash-resume-section-left-software-rating-title {
+        width: 40%;
+        text-align: left;
+        padding: 0;
+    }
+    .sreenivash-resume-section-left-software-rating-title p {
+        font-size: 10px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .sreenivash-resume-section-left-software-rating {
+        width: 60%;
+    }
+    .sreenivash-resume-section-left-software-rating .sreenivash-resume-ssr-width-30-px {
+        width: 10px;
+        margin: -5px 1px 0;
+    }
+    .sreenivash-resume-section-right-skills {
+        padding: 13px 5px;
+    }
+    .sreenivash-resume-section-right-skills-rating {
+        width: 60%;
+    }
+    .sreenivash-resume-section-right-skills-rating-title {
+        width: 40%;
+    }
+    .sreenivash-resume-ssr-width-30-px {
+        width: 10px;
+        margin: -5px 1px 0;
+    }
+    .sreenivash-resume-section-right-skills-rating-title p {
+        font-size: 10px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .sreenivash-resume-ssr-full-details {
+        padding: 34px 0 15px;
+    }
+}
+@media (min-width: 320px) and (max-width: 479px){
+    .sreenivash-resume-header {
+        height: 168px;
+        background-size: 100% 65%;
+        margin-top: -28px;
+    }
+    .sreenivash-resume-left {
+        height: 168px;
+    }
+    .sreenivash-resume-right {
+        height: 168px;
+    }
+    .sreenivash-resume-center {
+        padding-top: 65px;
+    }
+    .sreenivash-resume-header-images {
+        width: 80px;
+        height: 130px;
+    }
+    .sreenivash-resume-ssr-photo {
+        width: 74px;
+        height: 74px;
+        top: 50px;
+        margin: 0 3px;
+    }
+    .sreenivash-resume-ssr-name {
+        top: 40px;
+    }
+    .sreenivash-resume-ssr-content {
+        padding: 22px 0 30px;
+    }
+    .sreenivash-resume-ssr-content h1 {
+        font-size: 18px;
+    }
+    .sreenivash-resume-ssr-content p {
+        font-size: 7px;
+    }
+    .sreenivash-resume-ssr-center {
+        width: 80px;
+        padding-bottom: 40px;
+    }
+    .sreenivash-resume-ssr-career {
+        padding: 14px 8px 0;
+    }
+    .sreenivash-resume-ssr-career p {
+        font-size: 7px;
+    }
+    .sreenivash-resume-section-left-content h1 {
+        margin: 0 5px 0 0;
+        font-size: 18px;
+    }
+    .sreenivash-resume-section-right-content h1 {
+        margin: 0 0 0 5px;
+        font-size: 18px;
+    }
+    .sreenivash-resume-section-left-content-details {
+        padding: 13px 0;
+        margin: 0 5px 0 0;
+    }
+    .sreenivash-resume-section-right-content-details {
+        padding: 13px 0;
+        margin: 0 0 0 5px;
+    }
+    .sreenivash-resume-section-left-content-details h2 {
+        font-size: 20px;
+    }
+    .sreenivash-resume-section-right-content-details h2 {
+        font-size: 20px;
+    }
+    .sreenivash-resume-section-left-content-details h4 {
+        font-size: 16px;
+    }
+    .sreenivash-resume-section-right-content-details h4 {
+        font-size: 16px;
+    }
+    .sreenivash-resume-section-left-content-details p {
+        font-size: 10px;
+    }
+    .sreenivash-resume-section-right-content-details p {
+        font-size: 10px;
+    }
+    .sreenivash-resume-project {
+        width: 80px;
+    }
+    .sreenivash-resume-project p {
+        font-size: 7px;
+    }
+    .sreenivash-resume-project-more-details button {
+        padding: 1px 5px;
+        font-size: 10px;
+    }
+    .sreenivash-resume-section-right-content-details:nth-of-type(1) {
+        padding-bottom: 45px !important;
+    }
+    .sreenivash-resume-section-right-content-details:nth-of-type(2) {
+        padding-bottom: 98px;
+    }
+    .sreenivash-resume-section-right-content-details:nth-of-type(3) {
+        padding-bottom: 98px;
+    }
+    .sreenivash-resume-ssr-full-details h4 {
+        font-size: 14px;
+    }
+    .sreenivash-resume-ssr-full-details p {
+        font-size: 11px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .sreenivash-resume-ssr-icon-one {
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+    }
+    .sreenivash-resume-ssr-icon-two {
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+        padding-top: 10px;
+    }
+    .sreenivash-resume-ssr-icon-one .fa-facebook {
+        top: 14px;
+        font-size: 26px;
+        margin: 0 17px;
+    }
+    .sreenivash-resume-ssr-icon-two .fa-envelope-o {
+        top: 24px;
+        margin: 0 14px;
+        font-size: 22px;
+    }
+    .sreenivash-resume-ssr-social-icon {
+        padding: 0;
+    }
+    .sreenivash-resume-section-left-software {
+        padding: 13px 4px;
+    }
+    .sreenivash-resume-section-left-software-rating-title {
+        width: 35%;
+        text-align: left;
+        padding: 0;
+    }
+    .sreenivash-resume-section-left-software-rating-title p {
+        font-size: 9px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .sreenivash-resume-section-left-software-rating {
+        width: 65%;
+    }
+    .sreenivash-resume-section-left-software-rating .sreenivash-resume-ssr-width-30-px {
+        width: 7px;
+        margin: -5px 1px 0;
+    }
+    .sreenivash-resume-section-right-skills {
+        padding: 13px 5px;
+    }
+    .sreenivash-resume-section-right-skills-rating {
+        width: 65%;
+    }
+    .sreenivash-resume-section-right-skills-rating-title {
+        width: 35%;
+    }
+    .sreenivash-resume-ssr-width-30-px {
+        width: 7px;
+        margin: -5px 1px 0;
+    }
+    .sreenivash-resume-section-right-skills-rating-title p {
+        font-size: 9px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .sreenivash-resume-ssr-full-details {
+        padding: 34px 0 31px;
+    }
+}
